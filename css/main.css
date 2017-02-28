@@ -24,7 +24,7 @@ h1 {
 	font-size: 1.3rem;
 }
 a {
-	color: #000;
+	color: $black;
 	text-decoration: none;
 }
 a:hover {
@@ -40,7 +40,7 @@ a:hover {
 
 /* -- FIRST DIV -- */
 .bg-white {
-	background-color: #FFF;
+	background-color: $white;
 }
 #company {
 	font-size: 3rem;
@@ -54,7 +54,7 @@ a:hover {
 	display: block;
 	border-bottom: 1px solid #CCC;
 	padding: 1rem;
-	background-color: #EEE;
+	background-color: $light-grey;
 }
 .first ul li a:hover {
 	background-color: #666;
@@ -75,17 +75,17 @@ a:hover {
 .bg-people {
     background-image: url(../images/bg/creative-office.jpg);
     background-size: cover; /* bg image will always cover the assigned area regardless of screen-size */
-    color: #FFF;
+    color: $white;
     padding: 2rem 0 3rem 0;
 }
 .bg-people a {
     display: block;
-    color: #FFF;
+    color: $white;
     text-decoration: none;
     padding: 1rem 2rem;
     margin: 0 0 1rem 0;
-    border: 1px solid #FFF;
-	background-color: #000;
+    border: 1px solid $white;
+	background-color: $black;
 	transition: background-color 0.5s ease, border 0.5s ease;
 }
 .bg-people a:hover {
@@ -115,7 +115,7 @@ a:hover {
 .bg-gold li a {
 	display: block;
 	padding: 1rem;
-	background-color: #FFF;
+	background-color: $white;
     text-decoration: none;
 	border-bottom: 1px solid #CCC;
 }
@@ -124,7 +124,7 @@ a:hover {
 }
 .bg-gold li a:hover { /* when <a> that belongs to .bg-gold is hovered, color the text of second <span> that belongs to <a> to darkgoldenrod */
     color: #666;
-	background-color: #EEE;
+	background-color: $light-grey;
 }
 .bg-gold li span:last-child {
     text-transform: uppercase;
@@ -175,7 +175,7 @@ a:hover {
 /* -- FIFTH DIV -- */
 .bg-black {
 	background-color: #212121;
-    color: #FFF;
+    color: $white;
     padding: 2rem 0 3rem 0;
 }
 .bg-black h1 {
@@ -216,7 +216,7 @@ a:hover {
 .form-box input[type="submit"]{
     border: none;
     background-color: #FFD700;
-    color: #000;
+    color: $black;
     font-size: 1rem;
     font-weight: bold;
     padding: 1.3rem 2.3rem 2.3rem 2.3rem;
@@ -259,7 +259,7 @@ a:hover {
 		font-size: 1.2rem;
 		padding: 0 1rem;
 		border: none;
-		background-color: #FFF;
+		background-color: $white;
 		border-right: 1px solid #CCD;
 	}
 	.first ul li:first-of-type a { /* access the first <li> */
@@ -270,7 +270,7 @@ a:hover {
 		border-right: none;
 	}
 	.first ul li a:hover {
-		background-color: #FFF;
+		background-color: $white;
 		border-bottom: none;
 		color: #B8860B;
 		text-shadow: none;
@@ -284,12 +284,12 @@ a:hover {
 	/* -- SECOND DIV -- */
 	.bg-people a {
 		display: inline-block;
-		color: #FFF;
+		color: $white;
 		text-decoration: none;
 		padding: 1rem 2rem;
 		margin: 0 1rem 0 0;
-		border: 1px solid #FFF;
-		background-color: #000;
+		border: 1px solid $white;
+		background-color: $black;
 		transition: background-color 0.5s ease, border 0.5s ease;
 	}
 	.bg-people a:hover {
@@ -320,7 +320,7 @@ a:hover {
 		border: none;
 	}
 	.bg-gold li a span:first-child { 
-		border: 4px solid #FFF;
+		border: 4px solid $white;
 	}
 	.bg-gold li a:hover span:first-child { /* when <a> that belongs to .bg-gold is hovered ... */
 		border: 4px solid #999;
@@ -337,7 +337,7 @@ a:hover {
 		width: 5.5rem;
 		height: 5.5rem;
 		border-radius: 45px;
-		background-color: #FFF;
+		background-color: $white;
 	}
 	.bg-gold li span:last-child {
 		margin: 0 auto 2rem auto;
